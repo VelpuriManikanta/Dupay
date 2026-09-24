@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Node / React Native
+node_modules/
+mobile/ios/
+mobile/android/
+mobile/build/
+*.apk
+*.aab
+.expo/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env / Secrets
+.env
+.env.local
+*.pem
+
+# Testing / Coverage
+.coverage
+htmlcov/
+.pytest_cache/
